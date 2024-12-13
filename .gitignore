@@ -1,0 +1,4 @@
+# Git ignore files for lab 7
+
+*.DS_Store
+
