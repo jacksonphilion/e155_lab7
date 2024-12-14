@@ -1,0 +1,5 @@
+#Start recording tcl command: 12/13/2024 22:48:53
+#Project Location: C:/Users/jphilion/Desktop/e155_lab7/FPGA/radiant_project; Project name: lab7_projectV1
+prj_open "C:/Users/jphilion/Desktop/e155_lab7/FPGA/radiant_project/lab7_projectV1.rdf"
+prj_run Export -impl impl_1
+#Stop recording: 12/14/2024 01:00:54

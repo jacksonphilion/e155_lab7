@@ -1,0 +1,27 @@
+#Start recording tcl command: 12/13/2024 15:32:12
+#Project Location: C:/Users/jphilion/Desktop/e155_lab7/FPGA/radiant_project; Project name: lab7_projectV1
+prj_create -name "lab7_projectV1" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_add_source "C:/Users/jphilion/Desktop/e155_lab7/FPGA/radiant_project/source/impl_1/impl_1.sdc" "C:/Users/jphilion/Desktop/e155_lab7/FPGA/radiant_project/source/impl_1/impl_1.pdc"
+prj_save 
+prj_add_source "C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/top.sv"
+prj_run Synthesis -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 12/13/2024 18:29:05

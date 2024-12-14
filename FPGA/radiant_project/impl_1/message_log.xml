@@ -63,7 +63,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(1): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(1):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_addsub.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>1</Navigation>
@@ -71,7 +71,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_addsub.v(40): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_addsub.v(40):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_addsub.v</Navigation>
             <Navigation>40</Navigation>
@@ -79,7 +79,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(2): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(2):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_add.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>2</Navigation>
@@ -87,7 +87,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_add.v(50): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_add.v(50):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/adder/rtl/lscc_adder.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_add.v</Navigation>
             <Navigation>50</Navigation>
@@ -95,7 +95,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(3): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(3):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_complex_mult.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>3</Navigation>
@@ -103,7 +103,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_complex_mult.v(52): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_complex_mult.v(52):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/complex_mult/rtl/lscc_complex_mult.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_complex_mult.v</Navigation>
             <Navigation>52</Navigation>
@@ -111,7 +111,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(4): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(4):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_counter.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>4</Navigation>
@@ -119,7 +119,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_counter.v(39): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_counter.v(39):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/counter/rtl/lscc_cntr.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_counter.v</Navigation>
             <Navigation>39</Navigation>
@@ -127,7 +127,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(5): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(5):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>5</Navigation>
@@ -135,7 +135,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo.v(44): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo.v(44):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/fifo/rtl/lscc_fifo.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo.v</Navigation>
             <Navigation>44</Navigation>
@@ -143,7 +143,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(6): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(6):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo_dc.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>6</Navigation>
@@ -151,7 +151,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo_dc.v(47): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo_dc.v(47):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo_dc.v</Navigation>
             <Navigation>47</Navigation>
@@ -159,7 +159,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(7): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(7):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_mac.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>7</Navigation>
@@ -167,7 +167,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_mac.v(52): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_mac.v(52):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/mult_accumulate/rtl/lscc_mult_accumulate.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_mac.v</Navigation>
             <Navigation>52</Navigation>
@@ -175,7 +175,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(8): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(8):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsubsum.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>8</Navigation>
@@ -183,7 +183,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsubsum.v(53): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsubsum.v(53):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsubsum.v</Navigation>
             <Navigation>53</Navigation>
@@ -191,7 +191,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(9): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(9):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsub.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>9</Navigation>
@@ -199,7 +199,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsub.v(52): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsub.v(52):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/mult_add_sub/rtl/lscc_mult_add_sub.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsub.v</Navigation>
             <Navigation>52</Navigation>
@@ -207,7 +207,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(10): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(10):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_mult.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>10</Navigation>
@@ -215,7 +215,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_mult.v(51): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_mult.v(51):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/multiplier/rtl/lscc_multiplier.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_mult.v</Navigation>
             <Navigation>51</Navigation>
@@ -223,7 +223,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(11): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(11):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>11</Navigation>
@@ -231,7 +231,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp.v(48): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp.v(48):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp.v</Navigation>
             <Navigation>48</Navigation>
@@ -239,7 +239,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(12): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(12):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>12</Navigation>
@@ -247,7 +247,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq.v(45): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq.v(45):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq.v</Navigation>
             <Navigation>45</Navigation>
@@ -255,7 +255,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(13): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(13):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_rom.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>13</Navigation>
@@ -263,7 +263,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_rom.v(45): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_rom.v(45):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/rom/rtl/lscc_rom.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_rom.v</Navigation>
             <Navigation>45</Navigation>
@@ -271,7 +271,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(14): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(14):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_sub.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>14</Navigation>
@@ -279,7 +279,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_sub.v(50): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_sub.v(50):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/subtractor/rtl/lscc_subtractor.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_sub.v</Navigation>
             <Navigation>50</Navigation>
@@ -287,7 +287,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(15): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(15):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp_be.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>15</Navigation>
@@ -295,7 +295,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp_be.v(49): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp_be.v(49):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp_be.v</Navigation>
             <Navigation>49</Navigation>
@@ -303,7 +303,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(16): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(16):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq_be.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>16</Navigation>
@@ -311,7 +311,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq_be.v(45): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq_be.v(45):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq_be.v</Navigation>
             <Navigation>45</Navigation>
@@ -319,7 +319,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(17): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(17):</Dynamic>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_dsp.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>17</Navigation>
@@ -327,7 +327,7 @@
         <Message>
             <ID>35921014</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd(4): </Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd(4):</Dynamic>
             <Dynamic>components</Dynamic>
             <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd</Navigation>
             <Navigation>4</Navigation>
@@ -341,7 +341,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/top.sv(13): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/top.sv(13):</Dynamic>
             <Dynamic>top</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/top.sv</Navigation>
             <Navigation>13</Navigation>
@@ -349,7 +349,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>C:/lscc/radiant/2024.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2024.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756):</Dynamic>
             <Dynamic>HSOSC</Dynamic>
             <Navigation>C:/lscc/radiant/2024.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v</Navigation>
             <Navigation>756</Navigation>
@@ -357,7 +357,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(25): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(25):</Dynamic>
             <Dynamic>aes</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>25</Navigation>
@@ -365,7 +365,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(46): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(46):</Dynamic>
             <Dynamic>aes_spi</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>46</Navigation>
@@ -373,7 +373,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(96): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(96):</Dynamic>
             <Dynamic>aes_core</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>96</Navigation>
@@ -381,7 +381,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(548): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(548):</Dynamic>
             <Dynamic>shiftrows</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>548</Navigation>
@@ -389,7 +389,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(561): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(561):</Dynamic>
             <Dynamic>mixcolumns</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>561</Navigation>
@@ -397,7 +397,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(577): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(577):</Dynamic>
             <Dynamic>mixcolumn</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>577</Navigation>
@@ -405,7 +405,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(604): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(604):</Dynamic>
             <Dynamic>galoismult</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>604</Navigation>
@@ -413,7 +413,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(277): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(277):</Dynamic>
             <Dynamic>sub_byte</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>277</Navigation>
@@ -421,7 +421,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(525): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(525):</Dynamic>
             <Dynamic>sbox_sync</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>525</Navigation>
@@ -429,7 +429,7 @@
         <Message>
             <ID>35931002</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(532): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(532):</Dynamic>
             <Dynamic>sbox</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>532</Navigation>
@@ -437,7 +437,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(309): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(309):</Dynamic>
             <Dynamic>addroundkey</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>309</Navigation>
@@ -445,7 +445,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(339): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(339):</Dynamic>
             <Dynamic>key_schedule</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>339</Navigation>
@@ -453,7 +453,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(440): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(440):</Dynamic>
             <Dynamic>key_fsm</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>440</Navigation>
@@ -461,7 +461,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(410): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(410):</Dynamic>
             <Dynamic>xor3_module</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>410</Navigation>
@@ -469,7 +469,7 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(150): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(150):</Dynamic>
             <Dynamic>core_fsm</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>150</Navigation>
@@ -477,7 +477,7 @@
         <Message>
             <ID>35901209</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(183): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(183):</Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>4</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
@@ -486,7 +486,7 @@
         <Message>
             <ID>35931038</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(532): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(532):</Dynamic>
             <Dynamic>sbox_original_ramnet</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
             <Navigation>532</Navigation>

@@ -1,6 +1,6 @@
 Lattice Timing Report -  Setup  and Hold, Version Radiant Software (64-bit) 2024.1.0.34.2
 
-Fri Dec 13 18:16:52 2024
+Fri Dec 13 22:46:30 2024
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -172,8 +172,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
  ++++Path 1  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Path Begin       : clk_c/Q  (SLICE_R14C31A)
-Path End         : clk_c/D  (SLICE_R14C31A)
+Path Begin       : clk_c/Q  (SLICE_R14C31D)
+Path End         : clk_c/D  (SLICE_R14C31D)
 Source Clock     : int_osc (R)
 Destination Clock: int_osc (R)
 Logic Level      : 2
@@ -194,10 +194,10 @@ clk_c/CK                                                     CLOCK PIN          
 Data Path
 Name                                      Cell/Site Name     Delay Name       Incr      Arrival/Required Time  Fanout  
 ----------------------------------------  -----------------  ---------------  --------  ---------------------  ------  
-clk_c/CK->clk_c/Q                         SLICE_R14C31A      CLK_TO_Q0_DELAY     1.388                  6.887  176     
+clk_c/CK->clk_c/Q                         SLICE_R14C31D      CLK_TO_Q0_DELAY     1.388                  6.887  176     
 aesCall/core/addKeyCall/key_schedule_Call/keyFSMcall/clk
                                                              NET DELAY           1.758                  8.645  176     
-i5_1_lut/A->i5_1_lut/Z                    SLICE_R14C31A      D0_TO_F0_DELAY      0.476                  9.121  1       
+i5_1_lut/A->i5_1_lut/Z                    SLICE_R14C31D      D0_TO_F0_DELAY      0.476                  9.121  1       
 n4                                                           NET DELAY           0.000                  9.121  1       
 clk_c/D                                                      ENDPOINT            0.000                  9.121  1       
 
@@ -260,8 +260,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
  ++++Path 1  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Path Begin       : clk_c/Q  (SLICE_R14C31A)
-Path End         : clk_c/D  (SLICE_R14C31A)
+Path Begin       : clk_c/Q  (SLICE_R14C31D)
+Path End         : clk_c/D  (SLICE_R14C31D)
 Source Clock     : int_osc (R)
 Destination Clock: int_osc (R)
 Logic Level      : 2
@@ -282,10 +282,10 @@ clk_c/CK                                                     CLOCK PIN        0.
 Data Path
 Name                                      Cell/Site Name     Delay Name       Incr   Arrival/Required Time  Fanout  
 ----------------------------------------  -----------------  ---------------  -----  ---------------------  ------  
-clk_c/CK->clk_c/Q                         SLICE_R14C31A      CLK_TO_Q0_DELAY  0.779                  3.863  176     
+clk_c/CK->clk_c/Q                         SLICE_R14C31D      CLK_TO_Q0_DELAY  0.779                  3.863  176     
 aesCall/core/addKeyCall/key_schedule_Call/keyFSMcall/clk
                                                              NET DELAY        0.712                  4.575  176     
-i5_1_lut/A->i5_1_lut/Z                    SLICE_R14C31A      D0_TO_F0_DELAY   0.252                  4.827  1       
+i5_1_lut/A->i5_1_lut/Z                    SLICE_R14C31D      D0_TO_F0_DELAY   0.252                  4.827  1       
 n4                                                           NET DELAY        0.000                  4.827  1       
 clk_c/D                                                      ENDPOINT         0.000                  4.827  1       
 

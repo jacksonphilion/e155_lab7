@@ -11,23 +11,23 @@ cModel Technology
 dC:/Users/jphilion/Desktop/e155-final-project/singleFileFPGA/modelsim_project
 vaddroundkey
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1734139410
+Z1 !s110 1734162010
 !i10b 1
-!s100 1_77>5XkWcN8JYF2e;c[k1
-Ihf=X`nfbnT5a[Ym?bBJ^03
+!s100 m73@gV4oMcKIiK]Y<k9^b1
+I6@C5cG5G3hn93jbKi5:7X1
 S1
 Z2 dC:/Users/jphilion/Desktop/e155_lab7/FPGA/modelSim_project
-Z3 w1734139408
+Z3 w1734141849
 Z4 8C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv
 Z5 FC:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv
-!i122 47
-L0 290 22
+!i122 56
+L0 309 22
 Z6 VDg1SIo80bB@j0V0VzS_@n1
 Z7 OT;L;2021.4;73
 r1
 !s85 0
 31
-Z8 !s108 1734139410.000000
+Z8 !s108 1734162010.000000
 Z9 !s107 C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv|
 Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv|
 !s101 -O0
@@ -39,15 +39,15 @@ R0
 Z13 !s125 LATTICE_CONN
 R1
 !i10b 1
-!s100 TJ8fIz02<Xdz3Ig6aM:f]1
-IN;>MJE3nYMmBBeb_Uf5c?3
+!s100 T]0]@kIU<;X`JV<[UQ`:<0
+IgLo?Z^UoVULB3m:m:Yoem3
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 6 13
+!i122 56
+L0 25 13
 R6
 R7
 r1
@@ -64,15 +64,15 @@ vaes_core
 R0
 R1
 !i10b 1
-!s100 NdEXTS[e3Q:EUW]`^K_zX2
-IOSNZDNz[N[1]UJHi7122e1
+!s100 gjTPgOfm4a]kW>9dD>z;X0
+I6;Q?LJS3hHLmMde5D6WgC0
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 77 46
+!i122 56
+L0 96 46
 R6
 R7
 r1
@@ -89,15 +89,15 @@ vaes_spi
 R0
 R1
 !i10b 1
-!s100 S0Kl`CZ`UmJcR=<@d8WOT0
-I^kAzNODJ5[a:VhVONWU7O0
+!s100 H2EO8P6PJ]bc;KgjM45Z80
+IKTdbRiAn@g2OSjOzh71ZN1
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 27 30
+!i122 56
+L0 46 30
 R6
 R7
 r1
@@ -114,15 +114,15 @@ vcore_fsm
 R0
 R1
 !i10b 1
-!s100 aYfZF;TQ^U>N[MHM1XAjl3
-I5>]D2BE_jX<cU8G]OYYMU2
+!s100 Kk;=L=2PMIkjO?<D=[>:X3
+In`YRZ_dPTORIhYh<AH:En1
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 131 85
+!i122 56
+L0 150 85
 R6
 R7
 r1
@@ -139,15 +139,15 @@ vgaloismult
 R0
 R1
 !i10b 1
-!s100 UNAK18QCdUbD1d18N82<j3
-Ig]PzPaQNHSP^UAL]?`S=E1
+!s100 6C`=7ODiElIFGZJCd3B6D0
+ILKK3bCSDX[GHW6km>dJ0O3
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 585 8
+!i122 56
+L0 604 8
 R6
 R7
 r1
@@ -164,15 +164,15 @@ vkey_fsm
 R0
 R1
 !i10b 1
-!s100 Qj5ca4HBQ6cM1GURlO[B53
-IBf[U?D2V:RbZ=Fn66MOk82
+!s100 :;iF8^l42QGmf>3@k=b_o2
+IGX2jEF2?52@Bf9f7MZ:cO3
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 421 59
+!i122 56
+L0 440 59
 R6
 R7
 r1
@@ -189,15 +189,15 @@ vkey_schedule
 R0
 R1
 !i10b 1
-!s100 2XNnhIalD^B=m;?=5lX8J2
-Icn1NCH9@zYZ_zQ7XW[nLM0
+!s100 PgnEjh7Bm<N]CJ1;aRf=a1
+I;iQkh8i8W=D?bGG>k;REA2
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 320 70
+!i122 56
+L0 339 70
 R6
 R7
 r1
@@ -214,15 +214,15 @@ vmixcolumn
 R0
 R1
 !i10b 1
-!s100 A4:b3eZ_ACJEaPYWi80Z83
-I?;>_XZYF5P_@P;<A^kaOd3
+!s100 `F[Gb5]5fEzYMoAHCRKS10
+IKGcjgB<:OjaQn3Z>9dlDO1
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 558 19
+!i122 56
+L0 577 19
 R6
 R7
 r1
@@ -240,15 +240,15 @@ R0
 R13
 R1
 !i10b 1
-!s100 `a]T>bVh>=cLoRczRCDk22
-I<IS3OGbX`dLORUIfNM31Y1
+!s100 oJFM6@IFd>GVOQmO;iC<K2
+IFMIhf5UVSn];;igoS^cOj3
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 542 8
+!i122 56
+L0 561 8
 R6
 R7
 r1
@@ -265,15 +265,15 @@ vsbox
 R0
 R1
 !i10b 1
-!s100 05DSiI`Mce@Z`Z<l04k7A2
-IWfnkC`OU73N:DTB5TUFlJ0
+!s100 e:@XSg4Fn6=ezcjz4IX?T1
+ISbZDa=m7_aILXR<b=:U4X1
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 488 10
+!i122 56
+L0 507 10
 R6
 R7
 r1
@@ -290,15 +290,15 @@ vsbox_sync
 R0
 R1
 !i10b 1
-!s100 GIAR]E:@<nPHY3`<z9=X71
-I>0aGlmH03PhUoS8>Q^I;X0
+!s100 6SjPY<g8f8hT1JFG2nY><0
+IXJ2lj<=@]_PXoB9mVNI@;1
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 506 16
+!i122 56
+L0 525 16
 R6
 R7
 r1
@@ -315,15 +315,15 @@ vshiftrows
 R0
 R1
 !i10b 1
-!s100 MHge<^m`J]0c6zEDEX6ND2
-I^RkPiJcUZaVVm[lng=zE[0
+!s100 aQ[jVE_KgmUh:nGV_:?N[1
+IjOjak[i?TIB6Aj3`=hFWL2
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 529 5
+!i122 56
+L0 548 5
 R6
 R7
 r1
@@ -341,15 +341,15 @@ R0
 R13
 R1
 !i10b 1
-!s100 Ghg7jV2[^]0Ji=^:0V2Fd3
-I1KNM[M?P8jeH2iz:Q6]?V3
+!s100 kZ:Bh?k3bCoULU^?4DAeA3
+IVl]oKUeLQbIcSdcCTWB^R0
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 258 25
+!i122 56
+L0 277 25
 R6
 R7
 r1
@@ -373,7 +373,7 @@ R2
 w1734136762
 8C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_core_tb.sv
 FC:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_core_tb.sv
-!i122 48
+!i122 57
 L0 11 42
 R6
 R7
@@ -395,10 +395,10 @@ R1
 IkfSGzmzeii;ADTze:kHAd2
 S1
 R2
-Z14 w1734132174
+w1734132174
 8C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_sbox_tb.sv
 FC:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_sbox_tb.sv
-!i122 49
+!i122 58
 L0 7 67
 R6
 R7
@@ -420,10 +420,10 @@ R1
 Ik1Xl8HbDl`mYV:2z?3FAS2
 S1
 R2
-R14
+w1734162007
 8C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_spi_tb.sv
 FC:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_spi_tb.sv
-!i122 50
+!i122 59
 L0 8 73
 R6
 R7
@@ -437,19 +437,44 @@ R8
 !i113 1
 R11
 R12
+vtop
+R0
+R1
+!i10b 1
+!s100 ZVIk>QLA9KfAd@G8@_Z6M0
+I1Z?XF]kaPG<;=N3JggDWe3
+S1
+R2
+w1734142581
+8C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/top.sv
+FC:/Users/jphilion/Desktop/e155_lab7/FPGA/src/top.sv
+!i122 60
+L0 13 16
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/top.sv|
+!s101 -O0
+!i113 1
+R11
+R12
 vxor3_module
 R0
 R1
 !i10b 1
-!s100 AV?=<BgciO9^^ZQDBMi8b2
-IU3RFJLzn>2=Ika9aizFeA1
+!s100 1I>3<D9Cd?:>4BQ=WYVZJ2
+I17I>FDHEC369GM^`J>Ll^0
 S1
 R2
 R3
 R4
 R5
-!i122 47
-L0 391 29
+!i122 56
+L0 410 29
 R6
 R7
 r1

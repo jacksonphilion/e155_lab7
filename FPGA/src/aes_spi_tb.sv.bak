@@ -29,11 +29,18 @@ module testbench_aes_spi();
 //      plaintext <= 128'h00112233445566778899AABBCCDDEEFF;
 //      expected  <= 128'h69C4E0D86A7B0430D8CDB78070B4C55A;
     end
+
+ // Create dumpfile
+ initial
+   begin
+     $dumpfile("testbench_aes_spi.vcd");
+     $dumpvars(0, testbench_aes_spi);
+   end
     
     // generate clock and load signals
 		always begin
-				clk = 1'b0; #5;
-				clk = 1'b1; #5;
+				clk = 1'b0; #1;
+				clk = 1'b1; #1;
 		end
         
     initial begin

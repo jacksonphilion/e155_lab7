@@ -79,6 +79,7 @@ int main(void) {
   digitalWrite(PA11, 1);
 
 
+
   // hardware accelerated encryption
   encrypt(key, plaintext, cyphertext);
   checkAnswer(key, plaintext, cyphertext);

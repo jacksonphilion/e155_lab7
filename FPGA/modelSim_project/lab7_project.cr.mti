@@ -1,4 +1,18 @@
-C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv {1 {vlog -work work -sv -stats=none C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv
+C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/top.sv {1 {vlog -work work -sv -stats=none C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/top.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_spi_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_spi_tb.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module testbench_aes_spi
+
+Top level modules:
+	testbench_aes_spi
+
+} {} {}} C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv {1 {vlog -work work -sv -stats=none C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
 -- Compiling module aes
 -- Compiling module aes_spi
@@ -19,13 +33,6 @@ Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oc
 Top level modules:
 	aes
 	sbox
-
-} {} {}} C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_spi_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_spi_tb.sv
-Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
--- Compiling module testbench_aes_spi
-
-Top level modules:
-	testbench_aes_spi
 
 } {} {}} C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_sbox_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_sbox_tb.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
