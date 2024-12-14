@@ -41,10 +41,11 @@
 -ver "C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.v"
 -lib pmi -vhd "C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.vhd"
 -sver "C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv"
+"C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/top.sv"
 
 
 -path "C:/Users/jphilion/Desktop/e155_lab7/FPGA/radiant_project"
--top sbox
+-top top
 -udb "lab7_projectV1_impl_1_rtl.udb"
 -output_hdl "lab7_projectV1_impl_1.vm"
 

@@ -325,30 +325,6 @@
             <Navigation>17</Navigation>
         </Message>
         <Message>
-            <ID>35901362</ID>
-            <Severity>16</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(115): </Dynamic>
-            <Dynamic>addroundkeyStart</Dynamic>
-            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
-            <Navigation>115</Navigation>
-        </Message>
-        <Message>
-            <ID>35901362</ID>
-            <Severity>16</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(115): </Dynamic>
-            <Dynamic>addroundkeyDone</Dynamic>
-            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
-            <Navigation>115</Navigation>
-        </Message>
-        <Message>
-            <ID>35901362</ID>
-            <Severity>16</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(116): </Dynamic>
-            <Dynamic>roundNumber</Dynamic>
-            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
-            <Navigation>116</Navigation>
-        </Message>
-        <Message>
             <ID>35921014</ID>
             <Severity>1</Severity>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd(4): </Dynamic>
@@ -365,26 +341,159 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(482): </Dynamic>
-            <Dynamic>sbox</Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/top.sv(13): </Dynamic>
+            <Dynamic>top</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/top.sv</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2024.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756): </Dynamic>
+            <Dynamic>HSOSC</Dynamic>
+            <Navigation>C:/lscc/radiant/2024.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v</Navigation>
+            <Navigation>756</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(25): </Dynamic>
+            <Dynamic>aes</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
-            <Navigation>482</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(46): </Dynamic>
+            <Dynamic>aes_spi</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>46</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(96): </Dynamic>
+            <Dynamic>aes_core</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>96</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(548): </Dynamic>
+            <Dynamic>shiftrows</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>548</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(561): </Dynamic>
+            <Dynamic>mixcolumns</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>561</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(577): </Dynamic>
+            <Dynamic>mixcolumn</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>577</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(604): </Dynamic>
+            <Dynamic>galoismult</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>604</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(277): </Dynamic>
+            <Dynamic>sub_byte</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>277</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(525): </Dynamic>
+            <Dynamic>sbox_sync</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>525</Navigation>
         </Message>
         <Message>
             <ID>35931002</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(487): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(532): </Dynamic>
             <Dynamic>sbox</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
-            <Navigation>487</Navigation>
+            <Navigation>532</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(309): </Dynamic>
+            <Dynamic>addroundkey</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>309</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(339): </Dynamic>
+            <Dynamic>key_schedule</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>339</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(440): </Dynamic>
+            <Dynamic>key_fsm</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>440</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(410): </Dynamic>
+            <Dynamic>xor3_module</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>410</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(150): </Dynamic>
+            <Dynamic>core_fsm</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>150</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(183): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>183</Navigation>
         </Message>
         <Message>
             <ID>35931038</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(487): </Dynamic>
+            <Dynamic>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv(532): </Dynamic>
             <Dynamic>sbox_original_ramnet</Dynamic>
             <Navigation>c:/users/jphilion/desktop/e155_lab7/fpga/src/aes.sv</Navigation>
-            <Navigation>487</Navigation>
+            <Navigation>532</Navigation>
+        </Message>
+        <Message>
+            <ID>35002039</ID>
+            <Severity>1</Severity>
         </Message>
     </Task>
 </BaliMessageLog>

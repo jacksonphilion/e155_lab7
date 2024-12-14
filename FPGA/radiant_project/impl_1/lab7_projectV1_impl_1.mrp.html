@@ -42,14 +42,14 @@ if (a)
 <DIV id="content" onclick="hideTocList()"><PRE>
 <A name="Mrp"></A>                         Lattice Mapping Report File
 
-Design:  sbox
+Design:  top
 Family:  iCE40UP
 Device:  iCE40UP5K
 Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2024.1.0.34.2
-Mapped on: Fri Dec 13 15:41:20 2024
+Mapped on: Fri Dec 13 18:16:30 2024
 
 <A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
 
@@ -61,23 +61,25 @@ Command line:   map -pdc C:/Users/jphilion/Desktop/e155_lab7/FPGA/radiant_projec
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
 
-   Number of slice registers:   0 out of  5280 (0%)
-   Number of I/O registers:      0 out of   117 (0%)
-   Number of LUT4s:           216 out of  5280 (4%)
-      Number of logic LUT4s:             216
+   Number of slice registers: 689 out of  5280 (13%)
+   Number of I/O registers:      1 out of   117 (1%)
+   Number of LUT4s:           1417 out of  5280 (27%)
+      Number of logic LUT4s:             1153
+      Number of inserted feedthru LUT4s: 258
+      Number of replicated LUT4s:          6
       Number of ripple logic:              0 (0 LUT4s)
-   Number of IO sites used:   16 out of 39 (41%)
-      Number of IO sites used for general PIO: 16
+   Number of IO sites used:   5 out of 39 (13%)
+      Number of IO sites used for general PIO: 5
       Number of IO sites used for I3C: 0 out of 2 (0%)
       (note: If I3C is not used, its site can be used as general PIO)
-      Number of IO sites used for PIO+I3C: 16 out of 36 (44%)
+      Number of IO sites used for PIO+I3C: 5 out of 36 (14%)
       Number of IO sites used for OD+RGB IO buffers: 0 out of 3 (0%)
       (note: If RGB LED drivers are not used, sites can be used as OD outputs,
        see TN1288 iCE40 LED Driver Usage Guide)
-      Number of IO sites used for PIO+I3C+OD+RGB: 16 out of 39 (41%)
+      Number of IO sites used for PIO+I3C+OD+RGB: 5 out of 39 (13%)
    Number of DSPs:             0 out of 8 (0%)
    Number of I2Cs:             0 out of 2 (0%)
-   Number of High Speed OSCs:  0 out of 1 (0%)
+   Number of High Speed OSCs:  1 out of 1 (100%)
    Number of Low Speed OSCs:   0 out of 1 (0%)
    Number of RGB PWM:          0 out of 1 (0%)
    Number of RGB Drivers:      0 out of 1 (0%)
@@ -85,22 +87,38 @@ Command line:   map -pdc C:/Users/jphilion/Desktop/e155_lab7/FPGA/radiant_projec
    Number of SRAMs:            0 out of 4 (0%)
    Number of WARMBOOTs:        0 out of 1 (0%)
    Number of SPIs:             0 out of 2 (0%)
-   Number of EBRs:             0 out of 30 (0%)
+   Number of EBRs:             20 out of 30 (67%)
    Number of PLLs:             0 out of 1 (0%)
-   Number of Clocks:  0
-   Number of Clock Enables:  0
-   Number of LSRs:  0
+   Number of Clocks:  3
+      Net int_osc: 1 loads, 1 rising, 0 falling (Driver: Pin hf_osc/CLKHF)
+      Net clk: 324 loads, 324 rising, 0 falling (Driver: Pin clk_c/Q)
+      Net sck_c: 385 loads, 383 rising, 2 falling (Driver: Port sck)
+   Number of Clock Enables:  6
+      Net VCC_net: 61 loads, 0 SLICEs
+      Net aesCall.core.enState: 96 loads, 96 SLICEs
+      Net aesCall.core.n1641: 32 loads, 32 SLICEs
+      Net aesCall.core.coreFSMcall.n1646: 4 loads, 4 SLICEs
+      Net aesCall.core.addKeyCall.key_schedule_Call.enCurrentKey: 128 loads, 128
+     SLICEs
+      Net aesCall.core.addKeyCall.key_schedule_Call.enNextWord0: 32 loads, 32
+     SLICEs
+   Number of LSRs:  3
+      Net aesCall.core.coreFSMcall.n1658: 4 loads, 4 SLICEs
+      Net aesCall.core.addKeyCall.key_schedule_Call.keyFSMcall.n1415: 1 loads, 1
+     SLICEs
+      Net aesCall.core.addKeyCall.key_schedule_Call.keyFSMcall.state_key[3]: 2
+     loads, 2 SLICEs
    Top 10 highest fanout non-clock nets:
-      Net a_c_0: 128 loads
-      Net a_c_1: 128 loads
-      Net a_c_2: 128 loads
-      Net a_c_3: 128 loads
-      Net a_c_5: 49 loads
-      Net a_c_4: 42 loads
-      Net a_c_6: 16 loads
-      Net a_c_7: 13 loads
-      Net n1139: 1 loads
-      Net n173: 1 loads
+      Net aesCall.core.muxNextState[1]: 225 loads
+      Net aesCall.core.muxNextState[0]: 129 loads
+      Net aesCall.core.muxNextState[2]: 129 loads
+      Net aesCall.core.addKeyCall.key_schedule_Call.enCurrentKey: 128 loads
+      Net aesCall.core.addKeyCall.key_schedule_Call.n2728: 128 loads
+      Net aesCall.spi.wasdone: 128 loads
+      Net aesCall.core.enState: 100 loads
+      Net aesCall.core.addKeyCall.key_schedule_Call.muxNextWord0[1]: 64 loads
+      Net VCC_net: 62 loads
+      Net aesCall.core.addKeyCall.key_schedule_Call.enNextWord0: 32 loads
 
    Number of warnings:  0
    Number of criticals: 0
@@ -116,58 +134,93 @@ Command line:   map -pdc C:/Users/jphilion/Desktop/e155_lab7/FPGA/radiant_projec
 | IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
 |                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| y[7]                | OUTPUT    |           |       |       |           |
+| load                | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| y[6]                | OUTPUT    |           |       |       |           |
+| sdi                 | INPUT     |           | I     |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| y[5]                | OUTPUT    |           |       |       |           |
+| sck                 | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| y[4]                | OUTPUT    |           |       |       |           |
+| done                | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| y[3]                | OUTPUT    |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| y[2]                | OUTPUT    |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| y[1]                | OUTPUT    |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| y[0]                | OUTPUT    |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| a[7]                | INPUT     |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| a[6]                | INPUT     |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| a[5]                | INPUT     |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| a[4]                | INPUT     |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| a[3]                | INPUT     |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| a[2]                | INPUT     |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| a[1]                | INPUT     |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| a[0]                | INPUT     |           |       |       |           |
+| sdo                 | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 
 <A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
 
-Block a_pad[7].vlo_inst was optimized away.
-Block y_pad[7].vhi_inst was optimized away.
+Block aesCall/spi/i10_1_lut was optimized away.
+Block i1 was optimized away.
+
+<A name="mrp_osc"></A><B><U><big>OSC Summary</big></U></B>
+
+OSC 1:                                 Pin/Node Value
+  OSC Instance Name:                            hf_osc
+  Power UP:                            NODE     VCC_net
+  Enable Signal:                       NODE     VCC_net
+  OSC Output:                          NODE     int_osc
+  DIV Setting:                                  00
 
 <A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
 
+Instance Name: hf_osc
+         Type: HFOSC
+Instance Name: aesCall/spi/key_i0
+         Type: IOLOGIC
+Instance Name: aesCall/core/subByteCall/sbox9Call/cyphertext_48__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox8Call/cyphertext_56__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox7Call/cyphertext_64__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox6Call/cyphertext_72__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox5Call/cyphertext_80__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox4Call/cyphertext_88__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox3Call/cyphertext_96__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox2Call/cyphertext_104__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox1Call/cyphertext_112__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox15Call/cyphertext_0__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox14Call/cyphertext_8__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox13Call/cyphertext_16__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox12Call/cyphertext_24__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox11Call/cyphertext_32__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox10Call/cyphertext_40__I_0_3
+         Type: EBR
+Instance Name: aesCall/core/subByteCall/sbox0Call/cyphertext_120__I_0_3
+         Type: EBR
+Instance Name:
+     aesCall/core/addKeyCall/key_schedule_Call/sbox3/nextWord0out_0__I_0
+         Type: EBR
+Instance Name:
+     aesCall/core/addKeyCall/key_schedule_Call/sbox2/nextWord0out_8__I_0
+         Type: EBR
+Instance Name:
+     aesCall/core/addKeyCall/key_schedule_Call/sbox1/nextWord0out_16__I_0
+         Type: EBR
+Instance Name:
+     aesCall/core/addKeyCall/key_schedule_Call/sbox0/nextWord0out_24__I_0
+         Type: EBR
 
 <A name="mrp_consum"></A><B><U><big>Constraint Summary</big></U></B>
 
-   Total number of constraints: 0
+   Total number of constraints: 1
    Total number of constraints dropped: 0
 
 <A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
 
    Total CPU Time: 0 secs
    Total REAL Time: 0 secs
-   Peak Memory Usage: 64 MB
-Checksum -- map: 4ff009ce08c74bd1524dd3b9f51e86552250147
+   Peak Memory Usage: 87 MB
+Checksum -- map: c4b6d9a2d5776a178a3ea2ae95ee3892023bec5
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995
      AT&amp;T Corp.   All rights reserved.
@@ -185,6 +238,7 @@ Copyright (c) 2002-2024 Lattice Semiconductor
 <LI><A href=#mrp_dwe>Design Errors/Criticals/Warnings</A></LI>
 <LI><A href=#mrp_ioa>IO (PIO) Attributes</A></LI>
 <LI><A href=#mrp_rm>Removed logic</A></LI>
+<LI><A href=#mrp_osc>OSC Summary</A></LI>
 <LI><A href=#mrp_asic>ASIC Components</A></LI>
 <LI><A href=#mrp_consum>Constraint Summary</A></LI>
 <LI><A href=#mrp_runtime>Run Time and Memory Usage</A></LI>

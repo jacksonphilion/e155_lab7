@@ -1,3 +1,22 @@
+/***************************************************************************************
+
+aes.sv
+
+Jackson Philion, December 13 2024, jphilion@g.hmc.edu
+
+This file is built off of the starter code for Lab 7 provided by Professor Joshua Brake,
+who specifically provided the framework for the modules:
+	* aes, aes_spi, sbox, sbox_sync, mixcolumns, mixcolumn, and galoismult
+	
+The remaining modules were built by me, using a process outlined in my report found below:
+	* https://jacksonphilion.github.io/hmc-e155-portfolio/labs/lab7/lab7.html
+	
+This file is intended to be used alongside the provided sim testbenches. For an FPGA
+synthesizable version, look for top.sv in FPGA > src
+
+***************************************************************************************/
+
+
 /////////////////////////////////////////////
 //   aes.sv
 //   Top level module with SPI interface and SPI core
