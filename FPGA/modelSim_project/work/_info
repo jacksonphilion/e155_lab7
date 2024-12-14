@@ -1,0 +1,464 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/jphilion/Desktop/e155-final-project/singleFileFPGA/modelsim_project
+vaddroundkey
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1734139410
+!i10b 1
+!s100 1_77>5XkWcN8JYF2e;c[k1
+Ihf=X`nfbnT5a[Ym?bBJ^03
+S1
+Z2 dC:/Users/jphilion/Desktop/e155_lab7/FPGA/modelSim_project
+Z3 w1734139408
+Z4 8C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv
+Z5 FC:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv
+!i122 47
+L0 290 22
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OT;L;2021.4;73
+r1
+!s85 0
+31
+Z8 !s108 1734139410.000000
+Z9 !s107 C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes.sv|
+!s101 -O0
+!i113 1
+Z11 o-work work -sv -O0
+Z12 tCvgOpt 0
+vaes
+R0
+Z13 !s125 LATTICE_CONN
+R1
+!i10b 1
+!s100 TJ8fIz02<Xdz3Ig6aM:f]1
+IN;>MJE3nYMmBBeb_Uf5c?3
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 6 13
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vaes_core
+R0
+R1
+!i10b 1
+!s100 NdEXTS[e3Q:EUW]`^K_zX2
+IOSNZDNz[N[1]UJHi7122e1
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 77 46
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vaes_spi
+R0
+R1
+!i10b 1
+!s100 S0Kl`CZ`UmJcR=<@d8WOT0
+I^kAzNODJ5[a:VhVONWU7O0
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 27 30
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vcore_fsm
+R0
+R1
+!i10b 1
+!s100 aYfZF;TQ^U>N[MHM1XAjl3
+I5>]D2BE_jX<cU8G]OYYMU2
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 131 85
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vgaloismult
+R0
+R1
+!i10b 1
+!s100 UNAK18QCdUbD1d18N82<j3
+Ig]PzPaQNHSP^UAL]?`S=E1
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 585 8
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vkey_fsm
+R0
+R1
+!i10b 1
+!s100 Qj5ca4HBQ6cM1GURlO[B53
+IBf[U?D2V:RbZ=Fn66MOk82
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 421 59
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vkey_schedule
+R0
+R1
+!i10b 1
+!s100 2XNnhIalD^B=m;?=5lX8J2
+Icn1NCH9@zYZ_zQ7XW[nLM0
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 320 70
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vmixcolumn
+R0
+R1
+!i10b 1
+!s100 A4:b3eZ_ACJEaPYWi80Z83
+I?;>_XZYF5P_@P;<A^kaOd3
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 558 19
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vmixcolumns
+R0
+R13
+R1
+!i10b 1
+!s100 `a]T>bVh>=cLoRczRCDk22
+I<IS3OGbX`dLORUIfNM31Y1
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 542 8
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vsbox
+R0
+R1
+!i10b 1
+!s100 05DSiI`Mce@Z`Z<l04k7A2
+IWfnkC`OU73N:DTB5TUFlJ0
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 488 10
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vsbox_sync
+R0
+R1
+!i10b 1
+!s100 GIAR]E:@<nPHY3`<z9=X71
+I>0aGlmH03PhUoS8>Q^I;X0
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 506 16
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vshiftrows
+R0
+R1
+!i10b 1
+!s100 MHge<^m`J]0c6zEDEX6ND2
+I^RkPiJcUZaVVm[lng=zE[0
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 529 5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vsub_byte
+R0
+R13
+R1
+!i10b 1
+!s100 Ghg7jV2[^]0Ji=^:0V2Fd3
+I1KNM[M?P8jeH2iz:Q6]?V3
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 258 25
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vtestbench_aes_core
+R0
+R1
+!i10b 1
+!s100 aD<7_IY:C]X`2c6i`[Pa<0
+I?OW8KmRTQlIR2e`<I@z?Z0
+S1
+R2
+w1734136762
+8C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_core_tb.sv
+FC:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_core_tb.sv
+!i122 48
+L0 11 42
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_core_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_core_tb.sv|
+!s101 -O0
+!i113 1
+R11
+R12
+vtestbench_aes_sbox
+R0
+R1
+!i10b 1
+!s100 Nmef5zQfeg8YD40R?7AW03
+IkfSGzmzeii;ADTze:kHAd2
+S1
+R2
+Z14 w1734132174
+8C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_sbox_tb.sv
+FC:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_sbox_tb.sv
+!i122 49
+L0 7 67
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_sbox_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_sbox_tb.sv|
+!s101 -O0
+!i113 1
+R11
+R12
+vtestbench_aes_spi
+R0
+R1
+!i10b 1
+!s100 PcFFUBNWE;M`BnY_zj0Uj2
+Ik1Xl8HbDl`mYV:2z?3FAS2
+S1
+R2
+R14
+8C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_spi_tb.sv
+FC:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_spi_tb.sv
+!i122 50
+L0 8 73
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_spi_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jphilion/Desktop/e155_lab7/FPGA/src/aes_spi_tb.sv|
+!s101 -O0
+!i113 1
+R11
+R12
+vxor3_module
+R0
+R1
+!i10b 1
+!s100 AV?=<BgciO9^^ZQDBMi8b2
+IU3RFJLzn>2=Ika9aizFeA1
+S1
+R2
+R3
+R4
+R5
+!i122 47
+L0 391 29
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12

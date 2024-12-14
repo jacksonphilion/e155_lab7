@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell sbox
+   Instance path: sbox
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        216        100.0
+                               LUTGATE	        216        100.0
+                                 IOBUF	         16        100.0

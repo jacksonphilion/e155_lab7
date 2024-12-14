@@ -86,8 +86,14 @@ module aes_core(
   logic [127:0] stateOut, stateIn;
   logic [127:0] addKeyOut, mixColOut, shiftRowOut, subByteOut;
   logic [2:0] muxNextState;
-  logic enState
+  logic enState;
   
+  logic addroundkeyStart, addroundkeyDone;
+  logic [3:0] roundNumber;
+
+  logic reset;
+  assign reset = 1;
+
   // mux before state register
   always_comb
     case (muxNextState)
@@ -112,9 +118,7 @@ module aes_core(
   assign cyphertext = stateOut;
   
   // core_fsm
-  logic addroundkeyStart, addroundkeyDone;
-  logic [3:0] roundNumber;
-  core_fsm coreFSMcall();
+  core_fsm coreFSMcall(clk, reset, load, addroundkeyDone, addroundkeyStart, done, roundNumber, muxNextState, enState);
 endmodule
 
 /////////////////////////////////////////////
@@ -141,7 +145,7 @@ module core_fsm(
     core_lastSub, core_lastShift, core_lastKey, core_finish} core_fsm_statetype;
   core_fsm_statetype state_core, nextstate_core;
 
-  logic firstCycle, lastDone;
+  logic firstCycle, lastLoad;
 
   ////////////////////////  Registers  //////////////////////////////////
   always_ff @(posedge clk) begin
@@ -164,13 +168,13 @@ module core_fsm(
       addroundkeyStart <= 0;
       firstCycle <= 0; end
 
-    lastDone <= done;
+    lastLoad <= load;
   end
 
   ////////////////////////  Next State Logic  ////////////////////////////
   always_comb
     case (state_core)
-      core_idle:        if ((!done)&(lastDone)) nextstate_core = core_storeState;
+      core_idle:        if ((!load)&(lastLoad)) nextstate_core = core_storeState;
                         else nextstate_core = core_idle;
       core_storeState:  nextstate_core = core_firstKey;
       core_firstKey:    if (enState) nextstate_core = core_subBytes;
@@ -205,7 +209,7 @@ module core_fsm(
       core_lastSub:     begin done = 0; muxNextState = 3'b100; if (firstCycle) enState=0; else enState=1; end
       core_lastShift:   begin done = 0; muxNextState = 3'b011; enState = 1; end
       core_lastKey:     begin done = 0; muxNextState = 3'b001; if (addroundkeyDone) enState=1; else enState=0; end
-      core_finish:      begin done = 0; muxNextState = 3'b000; enState = 0; end
+      core_finish:      begin done = 1; muxNextState = 3'b000; enState = 0; end
       default:          begin done = 0; muxNextState = 3'b000; enState = 0; end
     endcase
 endmodule
@@ -218,38 +222,38 @@ endmodule
 /////////////////////////////////////////////
 
 `define a0 a[127:120]
-  `define a1 a[119:112]
-  `define a2 a[111:104]
-  `define a3 a[103:96]
-  `define a4 a[95:88]
-  `define a5 a[87:80]
-  `define a6 a[79:72]
-  `define a7 a[71:64]
-  `define a8 a[63:56]
-  `define a9 a[55:48]
-  `define a10 a[47:40]
-  `define a11 a[39:32]
-  `define a12 a[31:24]
-  `define a13 a[23:16]
-  `define a14 a[15:8]
-  `define a15 a[7:0]
+`define a1 a[119:112]
+`define a2 a[111:104]
+`define a3 a[103:96]
+`define a4 a[95:88]
+`define a5 a[87:80]
+`define a6 a[79:72]
+`define a7 a[71:64]
+`define a8 a[63:56]
+`define a9 a[55:48]
+`define a10 a[47:40]
+`define a11 a[39:32]
+`define a12 a[31:24]
+`define a13 a[23:16]
+`define a14 a[15:8]
+`define a15 a[7:0]
 
 `define y0 y[127:120]
-  `define y1 y[119:112]
-  `define y2 y[111:104]
-  `define y3 y[103:96]
-  `define y4 y[95:88]
-  `define y5 y[87:80]
-  `define y6 y[79:72]
-  `define y7 y[71:64]
-  `define y8 y[63:56]
-  `define y9 y[55:48]
-  `define y10 y[47:40]
-  `define y11 y[39:32]
-  `define y12 y[31:24]
-  `define y13 y[23:16]
-  `define y14 y[15:8]
-  `define y15 y[7:0]
+`define y1 y[119:112]
+`define y2 y[111:104]
+`define y3 y[103:96]
+`define y4 y[95:88]
+`define y5 y[87:80]
+`define y6 y[79:72]
+`define y7 y[71:64]
+`define y8 y[63:56]
+`define y9 y[55:48]
+`define y10 y[47:40]
+`define y11 y[39:32]
+`define y12 y[31:24]
+`define y13 y[23:16]
+`define y14 y[15:8]
+`define y15 y[7:0]
 
 module sub_byte(
   input logic clk, reset,
@@ -344,16 +348,18 @@ module key_schedule(input logic clk, reset,
   // currentKey Register
   always_ff @(posedge clk)
     if (enCurrentKey)
-      currentKeyOut <= currentKeyOut;
+      currentKeyOut <= currentKeyIn;
 
   // mux before nextWord0 Register
+  logic [31:0] currentLowWord;
+  assign currentLowWord = currentKeyOut[31:0];
   always_comb
     case (muxNextWord0)
-      2'b00:    nextWord0in = currentKeyOut[31:0];
+      2'b00:    nextWord0in = currentLowWord;
       2'b01:    nextWord0in = rotWordOut;
       2'b10:    nextWord0in = xor3out;
       2'b11:    nextWord0in = subWordOut;
-      default:  nextWord0in = ;
+      default:  nextWord0in = currentLowWord;
     endcase
 
   // nextWord0 Register
@@ -365,13 +371,13 @@ module key_schedule(input logic clk, reset,
   assign rotWordOut = { nextWord0out[23:16], nextWord0out[15:8], nextWord0out[7:0], nextWord0out[31:24]};
 
   // Call to the xor3out module (as seen below)
-  xor3out xor3outCall(roundNumber, nextWord0out, currentKeyOut[127:96], xor3out);
+  xor3_module xor3call(roundNumber, nextWord0out, currentKeyOut[127:96], xor3out);
 
   // sbox Logic
   sbox_sync sbox0(nextWord0out[31:24], clk, subw0);
-  sbox_sync sbox0(nextWord0out[31:24], clk, subw0);
-  sbox_sync sbox0(nextWord0out[31:24], clk, subw0);
-  sbox_sync sbox0(nextWord0out[31:24], clk, subw0);
+  sbox_sync sbox1(nextWord0out[23:16], clk, subw1);
+  sbox_sync sbox2(nextWord0out[15:8], clk, subw2);
+  sbox_sync sbox3(nextWord0out[7:0], clk, subw3);
 
   // combine subbed bytes into subWordOut
   assign subWordOut = {subw0, subw1, subw2, subw3};
@@ -467,7 +473,7 @@ module key_fsm(
       key_delay:        begin enCurrentKey = 0; enNextWord0 = 0; muxCurrentKey = 0; muxNextWord0 = 2'b00; generatedKey = 0; end
       key_sendNext:     begin enCurrentKey = 1; enNextWord0 = 0; muxCurrentKey = 1; muxNextWord0 = 2'b00; generatedKey = 0; end
       key_sendOriginal: begin enCurrentKey = 1; enNextWord0 = 0; muxCurrentKey = 0; muxNextWord0 = 2'b00; generatedKey = 0; end
-      key_finished:     begin enCurrentKey = 0; enNextWord0 = 0; muxCurrentKey = 0; muxNextWord0 = 2'b00; generatedKey = 1; end
+      key_finished:     begin enCurrentKey = 0; enNextWord0 = 1; muxCurrentKey = 0; muxNextWord0 = 2'b00; generatedKey = 1; end
       default:          begin enCurrentKey = 0; enNextWord0 = 0; muxCurrentKey = 0; muxNextWord0 = 2'b00; generatedKey = 0; end
     endcase
 endmodule
@@ -522,8 +528,8 @@ endmodule
 
 module shiftrows(input logic [127:0] a,
                 output logic [127:0] y);
-  // see above for `define statements
-  y = {`a0, `a5, `a10, `a15, `a4, `a9, `a14, `a3, `a8, `a13, `a2, `a7, `a12, `a1, `a6, `a11};
+  // see above for define statements
+  assign y = {`a0, `a5, `a10, `a15, `a4, `a9, `a14, `a3, `a8, `a13, `a2, `a7, `a12, `a1, `a6, `a11};
 endmodule
 
 /////////////////////////////////////////////

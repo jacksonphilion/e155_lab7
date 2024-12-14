@@ -10,6 +10,6 @@ The full write-up may be found on my portfolio website here: https://jacksonphil
 **Structure**\
 The `MCU` folder contains all custom libraries and the main.c source file necessary to run a complete SPI system between the MCU and FPGA. This code was given verbatim by Prof Brake in the Lab 7 Starter Code.
 
-The `FPGA` folder contains a source folder, holding all of the source code (including aes.sv), as well as a radiant folder which holds the Lattice Radiant project files. All of my generative work may be found within the aes.sv file and the Radiant project – the rest was a part of the starter code package.
+The `FPGA` folder contains a source folder, holding all of the source code (including aes.sv). It also includes the Lattice Radiant project, used to synthesize and download the source code, and the ModelSim project, used to simulate and debug the source code. Note that all non- aes.sv files in the source are part of the starter code package, as well as some parts of aes.sv. The core of my generative work may be found by reading my report or exploring aes.sv.
 
-The `notesAndExtras` folder contains any additional notes, images, etc
+The `notesAndExtras` folder contains any additional notes, images, etc which support the project.

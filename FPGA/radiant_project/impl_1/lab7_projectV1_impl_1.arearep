@@ -1,0 +1,10 @@
+----------------------------------------------------------------------
+Report for cell sbox.TECH
+Register bits:  0 of 5280 (0.000%)
+I/O cells:      16
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 IB         8          100.0
+                               LUT4       216          100.0
+                                 OB         8          100.0
+                              TOTAL       232
